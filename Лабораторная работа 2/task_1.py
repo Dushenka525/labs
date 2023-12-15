@@ -4,7 +4,7 @@ months = 10  # Количество месяцев, которое планир�
 increase = 0.03  # Ежемесячный рост цен
 money_capital=0
 month=10
-for i in range(1,month+1):
+for _ in range(1,month+1):
     money_capital = money_capital - salary + spend
 
     spend=spend*(1+increase)
